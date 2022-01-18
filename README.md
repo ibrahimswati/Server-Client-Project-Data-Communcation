@@ -11,10 +11,15 @@ While the loop is running it waits for requests. If request is received it is sp
 If it is a GET request it reads the index.html and sends back that file with 200OK command. If file is not found it sends a 404 message
 If it is a PUT request then it reads the file sent and stores it on the server which is the local computer for this instance with 200OK command. If file is not found it sends a 404 message
 
+<img src="https://github.com/ibrahimswati/Server-Client-Project-DataCommuncation/blob/main/servertest.png">
+
 
 # PUT:
 PUT class first creates and connects to socket and then sends a PUT request and then opens the file to put and reads it and then sends it as well and prints the data that has been sent and print the data received. 
 
+<img src="https://github.com/ibrahimswati/Server-Client-Project-DataCommuncation/blob/main/PUT.png">
+
 # GET:
 GET class first creates and connects to socket and then sends a GET request. Then it waits for data to be received until it closes socket.
 
+<img src="https://github.com/ibrahimswati/Server-Client-Project-DataCommuncation/blob/main/GET.png">
